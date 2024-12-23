@@ -1,6 +1,6 @@
 {
   "name": "microcms-rich-editor-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "microCMSのリッチエディタコンテンツを変換したりデータを抽出します。",
   "keywords": [
     "microcms",
