@@ -40,14 +40,14 @@
     "cheerio": "^1.0.0"
   },
   "devDependencies": {
-    "@microsoft/api-extractor": "^7.48.0",
-    "@tsconfig/strictest": "^2.0.5",
-    "@vitest/coverage-v8": "^2.1.8",
+    "@microsoft/api-extractor": "^7.58.9",
+    "@tsconfig/strictest": "^2.0.8",
+    "@vitest/coverage-v8": "^4.1.9",
     "shiki": "^1.24.2",
-    "tsup": "^8.3.5",
-    "typescript": "^5.7.2",
-    "vitepress": "^1.5.0",
-    "vitest": "^2.1.8"
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.1.9"
   },
   "peerDependencies": {
     "shiki": "^1"
