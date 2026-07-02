@@ -37,7 +37,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "cheerio": "^1.0.0"
+    "cheerio": "^1.2.0"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.58.9",
