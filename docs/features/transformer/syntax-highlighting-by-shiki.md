@@ -35,7 +35,7 @@ const syntaxHighlightingByShikiTransformer: (options: Options) => Transformer
 
 ## Usage
 
-追加で`shiki`パッケージをインストールする必要があります。
+追加で`shiki`パッケージをインストールする必要があります。shiki v1 / v2 / v3 / v4 に対応しています（v4 利用時は Node.js >= 20 が必要）。
 
 ::: code-group
 
