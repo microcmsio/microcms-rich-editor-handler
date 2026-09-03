@@ -43,7 +43,7 @@
     "@microsoft/api-extractor": "^7.58.9",
     "@tsconfig/strictest": "^2.0.8",
     "@vitest/coverage-v8": "^4.1.9",
-    "shiki": "^4.3.0",
+    "shiki": "^4.4.3",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
     "vitepress": "^1.6.4",

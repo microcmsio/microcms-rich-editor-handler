@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         node-version: [20.x, 22.x, 24.x]
-        shiki-version: ["1.29.2", "2.5.0", "3.23.0", "4.3.0"]
+        shiki-version: ["1.29.2", "2.5.0", "3.23.0", "4.4.3"]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
