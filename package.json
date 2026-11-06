@@ -42,12 +42,12 @@
   "devDependencies": {
     "@microsoft/api-extractor": "^7.59.3",
     "@tsconfig/strictest": "^2.0.8",
-    "@vitest/coverage-v8": "^4.1.11",
+    "@vitest/coverage-v8": "^4.1.12",
     "shiki": "^4.4.3",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
     "vitepress": "^1.6.4",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.12"
   },
   "peerDependencies": {
     "shiki": "^1 || ^2 || ^3 || ^4"
