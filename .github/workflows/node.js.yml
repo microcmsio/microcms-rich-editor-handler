@@ -15,18 +15,23 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [22.x, 24.x, 26.x]
+        node-version: [20.x, 22.x, 24.x, 26.x]
         shiki-version: ["1.29.2", "2.5.0", "3.23.0", "4.5.0"]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - name: Use Node.js ${{ matrix.node-version }}
+      # Development tools require a newer Node.js than the package runtime.
+      - name: Use development Node.js
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: ".node-version"
           cache: "npm"
       - run: npm ci
       - run: npm install shiki@${{ matrix.shiki-version }} --no-save --ignore-scripts
       - run: npm run build
+      - name: Use runtime Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
       - run: npm test
