@@ -58,9 +58,15 @@
     }
   },
   "engines": {
-    "node": ">=18"
+    "node": "26.x"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "packageManager": "npm@12.2.1",
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "fsevents": false,
+    "esbuild@0.21.5": true
   }
 }
